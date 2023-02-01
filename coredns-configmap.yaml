@@ -30,7 +30,7 @@ data:
         reload
         loadbalance
         trace datadog http://localhost:8126/v0.3/traces {
-          service mycoredns
+          service coredns
           datadog_analytics_rate 1
         }
     }
