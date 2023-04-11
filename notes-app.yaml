@@ -47,7 +47,7 @@ spec:
         tags.datadoghq.com/env: "dev"
         admission.datadoghq.com/enabled: "true"
       annotations:
-        admission.datadoghq.com/python-lib.version: "latest"
+        admission.datadoghq.com/python-lib.version: v1.11.2
     spec:
       containers:
         - name: notes-app
